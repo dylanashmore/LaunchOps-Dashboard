@@ -1,7 +1,7 @@
 const assets = [
   {
     id: "SAT-001",
-    name: "Satellite Alpha",
+    name: "Alpha",
     type: "Satellite",
     status: "ONLINE",
     battery: 87,
@@ -11,7 +11,7 @@ const assets = [
   },
     {
     id: "SAT-002",
-    name: "Satellite Sidra",
+    name: "Sidra",
     type: "Satellite",
     status: "OFFLINE",
     battery: 0,
@@ -33,7 +33,7 @@ const assets = [
     id: "SAT-004",
     name: "Nefeli",
     type: "Crew Capsule",
-    status: "ONLINE",
+    status: "WARNINGS",
     battery: 34,
     temperature: 63,
     signalStrength: 90,
@@ -41,9 +41,9 @@ const assets = [
   },
     {
     id: "SAT-005",
-    name: "Satellite Helios",
+    name: "Helios",
     type: "Satellite",
-    status: "ONLINE",
+    status: "CRITICAL",
     battery: 92,
     temperature: 24,
     signalStrength: 76,
